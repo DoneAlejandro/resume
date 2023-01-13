@@ -8,6 +8,9 @@ export const Header = () => {
         <h1 className="header__title">
           <NavLink to={"/"}>Болдырев Алексей</NavLink>
         </h1>
+		<div className="header__navbar">
+			<NavLink></NavLink>
+		</div>
       </div>
     </header>
   );
