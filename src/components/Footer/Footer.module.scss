@@ -1,0 +1,31 @@
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.footer {
+  background: rgb(199, 173, 173);
+
+  text-align: center;
+
+  &__list {
+    display: flex;
+    margin: 0 auto;
+    max-width: 40%;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: #eee;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  &__link svg {
+    width: 50px;
+    height: 50px;
+  }
+  &__text {
+    margin-top: 15px;
+  }
+}
