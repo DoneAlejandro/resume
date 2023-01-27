@@ -12,7 +12,6 @@ export const ProjectItem = ({ img, title, subtitle, link }) => {
       </div>
       <div className={style.item__container}>
         <img src={img} alt={title} />
-		
         <span>{title}</span>
       </div>
     </div>

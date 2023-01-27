@@ -8,11 +8,24 @@
   overflow: hidden;
 
   &__hover {
-    position: absolute;
+    align-items: center;
+    background-color: #576a8d;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    left: 0;
+    padding: 15px;
+    position: absolute;
     text-align: center;
+    top: 0;
+    transition: all 0.3s ease;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+  &__hover:hover {
+    opacity: 1;
   }
   &__hover a {
   }
@@ -25,7 +38,6 @@
     width: 100%;
     height: 100%;
 
-    // display: none;
   }
 
   &__container img {
