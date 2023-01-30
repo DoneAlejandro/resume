@@ -1,1 +1,9 @@
-
+.skills {
+  display: flex;
+  flex-direction: column;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+}

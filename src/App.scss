@@ -1,18 +1,11 @@
 .wrapper {
-  //   display: flex;
-  //   min-height: 100%;
-  //   overflow: hidden;
-  //   flex-direction: column;
+  
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
 
-// .main {
-//   min-height: calc(100vh - 247px);
-//   max-width: 90vw;
-//   margin: 0 auto;
-// }
+
 // @media (max-width: 1200px) {
 //   .container {
 //     max-width: 970px;

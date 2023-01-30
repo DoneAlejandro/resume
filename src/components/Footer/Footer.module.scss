@@ -1,7 +1,7 @@
 .container {
   max-width: 90vw;
   margin: 0 auto;
-  padding: 15rem 10rem;
+  padding: 15px;
 }
 
 .footer {
@@ -27,5 +27,13 @@
   }
   &__text {
     margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    &__list {
+      max-width: none;
+    }
   }
 }
