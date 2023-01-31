@@ -8,8 +8,8 @@ export const Header = () => {
     setActive(!active);
   };
   return (
-    <header className={style.container}>
-      <div className={style.header}>
+    <header className={style.header}>
+      <div className={`${style.header__wrapper} ${style.container}`}>
         <h1 className={style.header__title}>
           <NavLink to={"/"}>Болдырев Алексей</NavLink>
         </h1>

@@ -1,7 +1,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  &__wrapper {
+  &__intro {
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -20,7 +20,7 @@
 }
 @media (max-width: 767px) {
   .about {
-    &__wrapper {
+    &__intro {
       flex-direction: column;
     }
     &__description {

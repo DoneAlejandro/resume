@@ -1,0 +1,45 @@
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+.contact {
+  &__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 50%;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span {
+      margin-left: 10px;
+    }
+  }
+  &__avatar {
+    img {
+      width: 100%;
+      height: auto;
+      margin: 2px;
+      max-width: 400px;
+    }
+  }
+  &__send {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &__btn {
+    margin-top: 40px;
+    padding: 10px 20px;
+  }
+}

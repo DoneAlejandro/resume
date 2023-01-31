@@ -7,8 +7,9 @@
 .footer {
   background: rgb(199, 173, 173);
   width: 100vw;
-  text-align: center;
-
+  &__wrapper {
+    text-align: center;
+  }
   &__list {
     display: flex;
     margin: 0 auto;

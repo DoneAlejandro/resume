@@ -10,7 +10,7 @@ import { ProjectItem } from "../../ProjectItem";
 
 export const Projects = () => {
   return (
-    <div className={style.container}>
+    <div>
       <h1>Мои проекты</h1>
       <div className={style.project}>
         <ProjectItem img={brand} title={"The Brand"} subtitle={"Online clothes store. The project is implemented using HTML, SCSS, JS."} link={"https://github.com/DoneAlejandro/TheBrand"} />
