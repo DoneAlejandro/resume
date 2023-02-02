@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/DoneAlejandro/resume/static/css/main.c7579180.css",
+    "main.js": "/DoneAlejandro/resume/static/js/main.90aedff3.js",
+    "static/js/787.7c4fc8d6.chunk.js": "/DoneAlejandro/resume/static/js/787.7c4fc8d6.chunk.js",
+    "static/media/pizza.png": "/DoneAlejandro/resume/static/media/pizza.bb950102fd1f15de94a2.png",
+    "static/media/brand.png": "/DoneAlejandro/resume/static/media/brand.208a750d8b6740d4fd9b.png",
+    "static/media/slider.png": "/DoneAlejandro/resume/static/media/slider.e5fc5971a73f10112ece.png",
+    "static/media/training.png": "/DoneAlejandro/resume/static/media/training.54e08e7228e0a2d83c0a.png",
+    "static/media/avtar-skills.png": "/DoneAlejandro/resume/static/media/avtar-skills.7971ec807b6e26686aa5.png",
+    "static/media/relax.png": "/DoneAlejandro/resume/static/media/relax.aa8a3b751086913e34d4.png",
+    "static/media/ratio.png": "/DoneAlejandro/resume/static/media/ratio.4867936961685625eecb.png",
+    "static/media/avatar-about.png": "/DoneAlejandro/resume/static/media/avatar-about.b43104d046ef52323c94.png",
+    "static/media/avtar-contact.png": "/DoneAlejandro/resume/static/media/avtar-contact.7e0a3c16c08d9d6c2550.png",
+    "static/media/avatar-logo.png": "/DoneAlejandro/resume/static/media/avatar-logo.c1638e3b517a62797011.png",
+    "index.html": "/DoneAlejandro/resume/index.html",
+    "main.c7579180.css.map": "/DoneAlejandro/resume/static/css/main.c7579180.css.map",
+    "main.90aedff3.js.map": "/DoneAlejandro/resume/static/js/main.90aedff3.js.map",
+    "787.7c4fc8d6.chunk.js.map": "/DoneAlejandro/resume/static/js/787.7c4fc8d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7579180.css",
+    "static/js/main.90aedff3.js"
+  ]
+}
