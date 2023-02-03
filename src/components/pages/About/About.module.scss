@@ -1,9 +1,15 @@
+.container {
+  max-width: 90vw;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .about {
   display: flex;
   flex-direction: column;
   &__intro {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
   }
   &__description {
@@ -16,6 +22,11 @@
     height: auto;
     margin: 2px;
     max-width: 400px;
+  }
+}
+@media (min-width: 1880px) {
+  .container {
+    max-width: 1660px;
   }
 }
 @media (max-width: 767px) {

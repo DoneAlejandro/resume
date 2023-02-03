@@ -6,12 +6,11 @@ import { Projects } from "../pages/Projects";
 import { About } from "../pages/About";
 import { Skills } from "../pages/Skills";
 import { Contact } from "../pages/Contact";
-import style from "./Main.module.scss";
 
 export const Main = () => {
   const location = useLocation();
   return (
-    <main className={style.container}>
+    <main>
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<MainPage />} />

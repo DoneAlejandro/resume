@@ -1,12 +1,15 @@
 .container {
-  width: 90vw;
+  max-width: 90vw;
   margin: 0 auto;
+  padding: 0 15px;
 }
+
 .contact {
   &__intro {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
   }
   &__list {
     display: flex;
@@ -20,6 +23,7 @@
     cursor: pointer;
     span {
       margin-left: 10px;
+      font-size: 25px;
     }
   }
   &__avatar {
@@ -27,7 +31,7 @@
       width: 100%;
       height: auto;
       margin: 2px;
-      max-width: 400px;
+      max-width: 500px;
     }
   }
   &__send {
@@ -43,3 +47,19 @@
     padding: 10px 20px;
   }
 }
+@media (min-width: 1880px) {
+  .container {
+    max-width: 1660px;
+  }
+}
+@media (max-width: 610px) {
+  .contact {
+    &__intro {
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__list {
+      width: 100%;
+    }
+  }
+} ;
