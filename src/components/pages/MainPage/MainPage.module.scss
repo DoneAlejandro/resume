@@ -22,6 +22,10 @@
     font-size: 60px;
     text-align: center;
     max-width: 60%;
+    color: #fff;
+    span {
+      color: #1a8ad9;
+    }
   }
   &__image img {
     width: 100%;
@@ -29,12 +33,48 @@
     margin: 2px;
     max-width: 400px;
   }
+  &__view {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  &__arrowR {
+    position: absolute;
+    left: 39%;
+    top: -44px;
+    transform: rotate(3deg);
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 90px;
+    }
+  }
+  &__arrowL {
+    position: absolute;
+    right: 39%;
+    top: -44px;
+    transform: rotate(-3deg);
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 90px;
+    }
+  }
   &__viewprojects {
-    margin-top: 11rem;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     font-size: 16px;
-    color: #f49b90;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 900ms ease 0s;
+    &:hover {
+      color: #1a8ad9;
+      	
+      border-color: #1a8ad9;
+    }
   }
   &__projects {
     padding-left: 6px;
@@ -63,7 +103,7 @@
 }
 @media (max-width: 767px) {
   .main {
-    &__intro {
+    &__wrapper {
       flex-direction: column;
     }
 
