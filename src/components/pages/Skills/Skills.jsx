@@ -12,7 +12,7 @@ export const Skills = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className={style.skills}>
         <div className={`${style.skills__wrapper} ${style.container}`}>
-          <h1 className={style.skills__title}>Мои навыки</h1>
+          <h1 className={style.skills__title}>My skills</h1>
           <div className={style.skills__intro}>
             <div className={style.skills__item}>
               <div className={style.skills__icon}>

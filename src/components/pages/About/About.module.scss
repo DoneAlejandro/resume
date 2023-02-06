@@ -1,3 +1,7 @@
+:root {
+  --color-primary: #fff;
+}
+
 .container {
   max-width: 90vw;
   margin: 0 auto;
@@ -6,6 +10,9 @@
 .about {
   display: flex;
   flex-direction: column;
+  &__title {
+    color: var(--color-primary);
+  }
   &__intro {
     display: flex;
     align-items: center;
@@ -16,6 +23,7 @@
     font-size: 24px;
     max-width: 60%;
     text-align: start;
+    color: var(--color-primary);
   }
   &__avatar img {
     width: 100%;

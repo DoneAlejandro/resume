@@ -1,3 +1,10 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #1a8ad9;
+  --color-bg-item: rgba(124, 126, 131, 0.9);
+  --color-close: #222222;
+}
+
 .item {
   width: 374px;
   height: 245px;
@@ -8,7 +15,7 @@
 
   &__hover {
     align-items: center;
-    background-color: #576a8d;
+    background-color: var(--color-bg-item);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -18,15 +25,30 @@
     position: absolute;
     text-align: center;
     top: 0;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
     width: 100%;
     z-index: 1;
     opacity: 0;
+    span {
+      color: var(--color-primary);
+      font-size: 18px;
+    }
+    a {
+      color: var(--color-primary);
+      border: 2px solid var(--color-primary);
+      padding: 20px;
+      border-radius: 15px;
+      transition: all 0.9s ease 0s;
+      font-size: 18px;
+      &:hover {
+        color: var(--color-secondary);
+        border-color: var(--color-secondary);
+      }
+    }
   }
   &__hover:hover {
+    transition: all 0.9s ease;
     opacity: 1;
-  }
-  &__hover a {
   }
   &__container {
     display: flex;
@@ -42,20 +64,12 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
-    // position: absolute;
   }
   &__container span {
     position: absolute;
     top: 115px;
-    color: aqua;
+    color: var(--color-primary);
     font-size: 20px;
     text-transform: uppercase;
   }
-  //   &__title {
-  // align-items: center;
-  // color: #fff;
-  // display: flex;
-  // font-size: 40px;
-  // font-weight: 600;
-  //   }
 }

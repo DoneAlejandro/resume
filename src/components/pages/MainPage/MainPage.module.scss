@@ -1,9 +1,6 @@
 :root {
-  --color-primary: #f6aca2;
-  --color-secondary: #f49b90;
-  --color-tertiary: #f28b7d;
-  --color-quaternary: #f07a6a;
-  --color-quinary: #ee6352;
+  --color-primary: #fff;
+  --color-secondary: #1a8ad9;
 }
 .container {
   max-width: 90vw;
@@ -22,9 +19,9 @@
     font-size: 60px;
     text-align: center;
     max-width: 60%;
-    color: #fff;
+    color: var(--color-primary);
     span {
-      color: #1a8ad9;
+      color: var(--color-secondary);
     }
   }
   &__image img {
@@ -34,6 +31,7 @@
     max-width: 400px;
   }
   &__view {
+    margin: 40px 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -65,32 +63,29 @@
     display: flex;
     justify-content: center;
     font-size: 16px;
-    color: #fff;
-    border: 2px solid #fff;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
     padding: 20px;
     border-radius: 15px;
     transition: all 900ms ease 0s;
     &:hover {
-      color: #1a8ad9;
-      	
-      border-color: #1a8ad9;
+      color: var(--color-secondary);
+
+      border-color: var(--color-secondary);
     }
   }
   &__projects {
     padding-left: 6px;
-    // text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-    // font-family: bungee, sans-serif;
-    // font-weight: 400;
-    // text-transform: uppercase;
-    // font-size: 30px;
-    // text-align: center;
-    // margin: 0;
-    // color: var(--color-primary);
-    // // color: transparent;
-    // // background-color: white;
-    // // background-clip: text;
-    // animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
-    // letter-spacing: 0.4rem;
+  }
+}
+@media (max-width: 1400px) {
+  .main {
+    &__arrowR {
+      left: 35%;
+    }
+    &__arrowL {
+      right: 35%;
+    }
   }
 }
 
@@ -98,6 +93,12 @@
   .main {
     &__title {
       font-size: 50px;
+    }
+    &__arrowR {
+      left: 32%;
+    }
+    &__arrowL {
+      right: 32%;
     }
   }
 }
@@ -110,6 +111,22 @@
     &__title {
       font-size: 35px;
       z-index: 5;
+    }
+    &__arrowR {
+      left: 25%;
+    }
+    &__arrowL {
+      right: 25%;
+    }
+  }
+}
+@media (max-width: 560px) {
+  .main {
+    &__arrowR {
+      left: 15%;
+    }
+    &__arrowL {
+      right: 15%;
     }
   }
 }

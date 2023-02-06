@@ -23,6 +23,9 @@ export const MainPage = () => {
           <div className={style.main__arrowR}>
             <img src={arrowR} alt="arrow-right" />
           </div>
+          <div className={style.main__arrowL}>
+            <img src={arrowL} alt="arrow-left" />
+          </div>
           <NavLink to={"/projects"} className={style.main__viewprojects}>
             <span className={style.main__projects}>VIEW PROJECTS</span>
           </NavLink>

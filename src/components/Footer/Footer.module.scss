@@ -1,3 +1,8 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #1a8ad9;
+}
+
 .container {
   max-width: 90vw;
   margin: 0 auto;
@@ -17,9 +22,12 @@
   }
 
   &__link {
-    color: #eee;
+    color: var(--color-primary);
     cursor: pointer;
     transition: all 0.2s ease;
+    &:hover {
+      color: var(--color-secondary);
+    }
   }
   &__link svg {
     width: 50px;
@@ -27,6 +35,7 @@
   }
   &__text {
     margin-top: 15px;
+    color: var(--color-primary);
   }
 }
 

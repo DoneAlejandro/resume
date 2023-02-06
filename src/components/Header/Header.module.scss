@@ -1,3 +1,9 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #1a8ad9;
+  --color-bg-menu: rgba(119, 137, 172, 0.9);
+}
+
 .container {
   max-width: 90vw;
   margin: 0 auto;
@@ -22,7 +28,7 @@
     align-items: center;
   }
   &__title a {
-    color: #fff;
+    color: var(--color-primary);
     cursor: pointer;
     font-size: 36px;
     font-weight: 600;
@@ -33,7 +39,7 @@
     width: 60%;
   }
   &__link {
-    color: #fff;
+    color: var(--color-primary);
     font-weight: 400;
     font-size: 20px;
     cursor: pointer;
@@ -41,7 +47,7 @@
     transition: all 900ms ease 0s;
   }
   &__link:hover {
-    color: #1a8ad9;
+    color: var(--color-secondary);
     transition: all 900ms ease 0s;
   }
   &__link:hover::before {
@@ -52,7 +58,7 @@
     content: "";
     width: 100%;
     height: 2px;
-    background: #1a8ad9;
+    background: var(--color-secondary);
     position: absolute;
     left: 0;
     bottom: -35px;
@@ -83,7 +89,7 @@
       align-items: center;
       height: 100%;
       justify-content: space-around;
-      background: rgba(139, 138, 138, 0.9);
+      background: var(--color-bg-menu);
       transition: left 900ms ease 0s;
       z-index: 10;
     }
@@ -108,7 +114,7 @@
       height: 10%;
       width: 100%;
       transition: all 900ms ease 0s;
-      background-color: #222222;
+      background-color: var(--color-primary);
     }
     &__icon::before,
     &__icon::after {

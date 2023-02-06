@@ -1,3 +1,8 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #1a8ad9;
+}
+
 .container {
   max-width: 90vw;
   margin: 0 auto;
@@ -5,6 +10,9 @@
 }
 
 .skills {
+  &__title {
+    color: var(--color-primary);
+  }
   &__intro {
     display: flex;
     align-items: center;
@@ -26,13 +34,20 @@
     cursor: pointer;
     display: flex;
     flex-direction: column;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
     width: 90px;
+    color: var(--color-primary);
+    &:hover {
+      color: var(--color-secondary);
+    }
     span {
       font-size: 24px;
       font-weight: 500;
       opacity: 0;
-      transition: all 0.3s ease;
+      transition: all 0.9s ease;
+      &:hover {
+        color: var(--color-secondary);
+      }
     }
     &:hover span {
       opacity: 1;

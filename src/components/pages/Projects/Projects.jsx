@@ -14,7 +14,7 @@ export const Projects = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className={style.project}>
         <div className={`${style.project__wrapper} ${style.container}`}>
-          <h1>Мои проекты</h1>
+          <h1>My project</h1>
           <div className={style.project__list}>
             <ProjectItem img={brand} title={"The Brand"} subtitle={"Online clothes store. The project is implemented using HTML, SCSS, JS."} link={"https://github.com/DoneAlejandro/TheBrand"} />
             <ProjectItem img={pizza} title={"React pizzas"} subtitle={"Pizzas restaurant site. The project is implemented using react. Redux is used as a state manager."} link={"https://github.com/DoneAlejandro/Pizza"} />

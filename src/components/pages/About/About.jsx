@@ -9,11 +9,11 @@ export const About = () => {
       <div className={style.about}>
         <div className={`${style.about__wrapper} ${style.container}`}>
           <div className={style.about__title}>
-            <h1>Обо мне</h1>
+            <h1>About me</h1>
           </div>
           <div className={style.about__intro}>
             <div className={style.about__description}>
-              <span>Меня зовут Болдырев Алексей. Мне 26 лет. Полтора года назад я решил изменить свою жизнь и решил заняться программированием. Начинал с языка программирования Python. На нём я написал парочку ботов для телеграм. И однажды я наткнулся на обучающие ролики по веб программированию. Таким образом я нашёл то, что мне безумно нравится и то, что у меня вызывает детский восторг как когда собираешь конструктор лего</span>
+              <span>My name is Alexey Boldyrev. I am 26 years old. A year and a half ago, I decided to change my life and decided to take up programming. I started with the Python programming language. I wrote a couple of telegram bots on it. And one day I came across training videos on web programming. So I found something that I really like and something that makes me a child's delight, like when you assemble a lego set.</span>
             </div>
             <div className={style.about__avatar}>
               <img src={avatar} alt="logo" />

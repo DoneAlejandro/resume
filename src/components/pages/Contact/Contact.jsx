@@ -12,7 +12,7 @@ export const Contact = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className={style.contact}>
         <div className={`${style.contact__wrapper} ${style.container}`}>
-          <h1>Контакты</h1>
+          <h1>Contacts</h1>
           <div className={style.contact__intro}>
             <div className={style.contact__list}>
               <div className={style.contact__item}>
@@ -39,9 +39,9 @@ export const Contact = () => {
             </div>
           </div>
           <div className={style.contact__send}>
-            <h3>Остались вопросы?</h3>
+            <h3>Any questions?</h3>
             <button onClick={() => setVisible(!visible)} className={style.contact__btn}>
-              Отправить сообщение
+              Send message
             </button>
           </div>
         </div>
