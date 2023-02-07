@@ -70,3 +70,17 @@
     }
   }
 }
+@media (max-width: 767px) {
+  .popup {
+    &__wrapper {
+      width: 70%;
+    }
+  }
+}
+@media (max-width: 420px) {
+  .popup {
+    &__wrapper {
+      width: 90%;
+    }
+  }
+}
