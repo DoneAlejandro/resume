@@ -42,8 +42,8 @@ export const Popup = ({ setVisible }) => {
           X
         </div>
         <div>
-          <h3>Остались вопросы?</h3>
-          <span>Скорее пишите мне!</span>
+          <h3>Have more questions?</h3>
+          <span>let's get write me!</span>
         </div>
         <div className={style.popup__message}>
           <input className={style.popup__input} type="text" name="user_name" placeholder="Name" onChange={(e) => setValues({ ...values, user_name: e.target.value })} />
@@ -51,7 +51,7 @@ export const Popup = ({ setVisible }) => {
           <textarea className={style.popup__textarea} name="message" placeholder="Message" onChange={(e) => setValues({ ...values, message: e.target.value })} />
         </div>
         <div className={style.popup__send}>
-          <button className={style.popup__btn}>Отправить</button>
+          <button className={style.popup__btn}>send</button>
         </div>
       </form>
     </div>
